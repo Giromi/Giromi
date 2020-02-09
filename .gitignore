@@ -1,0 +1,4 @@
+# Git ignore
+
+bin/
+goorm.mainfest
