@@ -1,16 +1,51 @@
 ### Hi there 👋
 
-<!--
-**Giromi/Giromi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+[![minsuki2's 42 stats](https://badge42.vercel.app/api/v2/clj407pl1006308lbzjvrgwu8/stats?cursusId=21&coalitionId=87)](https://github.com/JaeSeoKim/badge42)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+
+<details>
+<summary>
+  <h2>42 Cursus Exam</h2>
+</summary>
+<div markdown="1">
+
+
+## Exam Rank 05 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![minsuki2's 42 Exam Rank 05 Score](https://badge42.vercel.app/api/v2/clj407pl1006308lbzjvrgwu8/project/2952629)](https://github.com/JaeSeoKim/badge42)
+## Exam Rank 04 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![minsuki2's 42 Exam Rank 04 Score](https://badge42.vercel.app/api/v2/clj407pl1006308lbzjvrgwu8/project/2823772)](https://github.com/JaeSeoKim/badge42)
+## Exam Rank 03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![minsuki2's 42 Exam Rank 03 Score](https://badge42.vercel.app/api/v2/clj407pl1006308lbzjvrgwu8/project/2811895)](https://github.com/JaeSeoKim/badge42)
+## Exam Rank 02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![minsuki2's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/clj407pl1006308lbzjvrgwu8/project/2632470)](https://github.com/JaeSeoKim/badge42)
+
+</div>
+</details>
+
+
+<!-- This is a comment 
+
+
+<details>
+<summary><h3>Click to expand!</h3></summary>
+
+This is the first level of hidden text.
+
+
+
+</details>
+
+
+<details>
+<summary><h3>Click to expand!</h3></summary>
+
+This is the first level of hidden text.
+
+    <details>
+    <summary><h4>Click to expand even more!</h4></summary>
+
+    This is the second level of hidden text!
+
+    </details>
+
+</details>
+
+
 -->
