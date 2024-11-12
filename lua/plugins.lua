@@ -1,10 +1,11 @@
  -- This file can be loaded by calling `lua require('plugins')` from your init.vim
 
 -- Only required if you have packer configured as `opt`
+
 vim.cmd [[packadd packer.nvim]]
 
 function get_setup(name)
-   return require("setup/" .. name)
+   return require("config/" .. name)
 end
 
 return require('packer').startup(function(use)
@@ -13,9 +14,9 @@ return require('packer').startup(function(use)
   use "lukas-reineke/lsp-format.nvim"
 
   use {
-      'EdenEast/nightfox.nvim', 
-    -- config = get_setup("nightfox") 
-    }
+    'EdenEast/nightfox.nvim', 
+    config = get_setup("nightfox")
+  }
 
   -- A File Explorer For Neovim Written In Lua
   use {
@@ -23,14 +24,14 @@ return require('packer').startup(function(use)
     requires = {
       'nvim-tree/nvim-web-devicons', -- optional
     },
-    -- config = get_setup("tree")
+    config = get_setup("tree")
   }
 
   -- A blazing fast and easy to configure Neovim statusline written in Lua.
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true },
-    -- config = get_setup("lualine")
+    config = get_setup("lualine")
 
   }
 
@@ -38,7 +39,7 @@ return require('packer').startup(function(use)
     'akinsho/bufferline.nvim',
     tag = "*", 
     requires = 'nvim-tree/nvim-web-devicons',
-    -- config = get_setup("bufferline")
+    config = get_setup("bufferline")
   }
 
   use {
@@ -50,29 +51,54 @@ return require('packer').startup(function(use)
   }
 
   use {
-   'numToStr/Comment.nvim',
-    -- config = get_setup("comment")
+    'numToStr/Comment.nvim',
+    config = get_setup("comment")
+  }
+
+  use "nvim-lua/plenary.nvim"
+
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = { 'nvim-lua/plenary.nvim' },
+    config = get_setup("telscope")
+  }
+
+  use {
+    "folke/trouble.nvim",
+    requires = { 
+      "nvim-tree/nvim-web-devicons"
+    },
+    config = get_setup("trouble")
+  }
+
+
+  use {
+    "jose-elias-alvarez/null-ls.nvim",
+    requires = {
+      'nvim-telescope/telescope.nvim',
+      "folke/trouble.nvim",
+    },
+    config = get_setup("null-ls")
   }
 
   use {
     'MunifTanjim/eslint.nvim',
     requires = {
       "jose-elias-alvarez/null-ls.nvim",
-      'neovim/nvim-lspconfig',
     },
-    -- config = get_setup("eslint")
+    config = get_setup("eslint")
   }
 
   use {
-      'neovim/nvim-lspconfig',
-    -- config = get_setup("lsp")
+    'neovim/nvim-lspconfig',
+    config = get_setup("lsp")
   }
 
-  -- 자동으로 플러그인 찾아줌
+ -- 자동으로 플러그인 찾아줌
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
-    -- config = get_setup("mason")
+    config = get_setup("mason")
   }
 
   use {
@@ -86,13 +112,68 @@ return require('packer').startup(function(use)
   }
 
   use {
-    "jose-elias-alvarez/null-ls.nvim",
-    "nvim-lua/plenary.nvim",
-    -- config = get_setup("null-ls")
+    "windwp/nvim-autopairs",
+     config = get_setup("nvim-autopairs")
   }
 
   use {
-	"windwp/nvim-autopairs",
-    -- config = get_setup("nvim-autopairs")
+    'daeyun/vim-matlab',
+    -- 'do' 옵션은 Packer에는 없으므로, run을 사용하여 비슷하게 구현
+    run = function()
+        vim.api.nvim_command('UpdateRemotePlugins')
+    end,
+    config = get_setup('vim-matlab')
   }
+
+  use { 
+    "kiyoon/jupynium.nvim", 
+    run = "pip3 install --user ." ,
+    config = get_setup("jupynium")
+  }
+
+  use "sindrets/diffview.nvim"
+
+  use { "HakonHarnes/img-clip.nvim", }
+  use {
+    'MeanderingProgrammer/render-markdown.nvim',
+    dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' },
+  }
+
+  use { 
+    "yetone/avante.nvim",
+    requires = {
+	    "nvim-treesitter/nvim-treesitter", "stevearc/dressing.nvim", "nvim-lua/plenary.nvim",
+	    "MunifTanjim/nui.nvim", --- The below dependencies are optional
+	    "nvim-tree/nvim-web-devicons", -- or echasnovski/mini.icons
+	    "zbirenbaum/copilot.lua", -- for providers='copilot'
+      -- "author/avante_lib", -- 실제 라이브러리의 GitHub 경로가 필요합니다
+    },
+    config = get_setup("avante")
+  }
+
+  use {
+    'akinsho/toggleterm.nvim',
+    tag = '*',
+    config = get_setup("toggleterm")
+  }
+
+
+  -- use {
+  --   'lewis6991/gitsigns.nvim',
+  --   config = get_setup("gitsigns")
+  -- }
+
+
+
+
+  
+  -- @ Only nvim user can use this plugin
+  -- use {
+  --   'azratul/live-share.nvim',
+  --   requires = {'jbyuki/instant.nvim'},
+  --   config = get_setup("live-share")
+  -- }
+
+  -- 느림
+  -- use {'neoclide/coc.nvim', branch = 'release'}
 end)
