@@ -55,8 +55,6 @@ return require('packer').startup(function(use)
     config = get_setup("comment")
   }
 
-  use "nvim-lua/plenary.nvim"
-
   use {
     'nvim-telescope/telescope.nvim',
     requires = { 'nvim-lua/plenary.nvim' },
@@ -112,17 +110,13 @@ return require('packer').startup(function(use)
   }
 
   use {
-    "windwp/nvim-autopairs",
-     config = get_setup("nvim-autopairs")
+    "j-hui/fidget.nvim",  -- Visualize lsp progress
+  --   config = get_setup("fidget")
   }
 
   use {
-    'daeyun/vim-matlab',
-    -- 'do' 옵션은 Packer에는 없으므로, run을 사용하여 비슷하게 구현
-    run = function()
-        vim.api.nvim_command('UpdateRemotePlugins')
-    end,
-    config = get_setup('vim-matlab')
+    "windwp/nvim-autopairs",
+     config = get_setup("nvim-autopairs")
   }
 
   use { 
@@ -134,21 +128,27 @@ return require('packer').startup(function(use)
   use "sindrets/diffview.nvim"
 
   use { "HakonHarnes/img-clip.nvim", }
+
   use {
     'MeanderingProgrammer/render-markdown.nvim',
     dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' },
   }
 
+  use { "nvim-lua/plenary.nvim" }
+  use { "stevearc/dressing.nvim" }
+  use { "MunifTanjim/nui.nvim" }
   use { 
     "yetone/avante.nvim",
     requires = {
-	    "nvim-treesitter/nvim-treesitter", "stevearc/dressing.nvim", "nvim-lua/plenary.nvim",
+	    "nvim-treesitter/nvim-treesitter", 
+      "stevearc/dressing.nvim", 
+      "nvim-lua/plenary.nvim",
 	    "MunifTanjim/nui.nvim", --- The below dependencies are optional
 	    "nvim-tree/nvim-web-devicons", -- or echasnovski/mini.icons
 	    "zbirenbaum/copilot.lua", -- for providers='copilot'
       -- "author/avante_lib", -- 실제 라이브러리의 GitHub 경로가 필요합니다
     },
-    config = get_setup("avante")
+    -- config = get_setup("avante")
   }
 
   use {
@@ -157,18 +157,29 @@ return require('packer').startup(function(use)
     config = get_setup("toggleterm")
   }
 
+  use {
+    "daeyun/vim-matlab",
+    run = ":UpdateRemotePlugins",
+    config = get_setup("vim-matlab")
+  }
+
+  use {
+    "simrat39/rust-tools.nvim",
+    -- config = get_setup("rust")
+  }
 
   -- use {
   --   'lewis6991/gitsigns.nvim',
   --   config = get_setup("gitsigns")
   -- }
 
+  -- use { -- 만드는 플러그인여서 필요없음
+  --   'nvim-lua/popup.nvim',
+  --   requires = 'nvim-lua/plenary.nvim',
+  --   config = get_setup("popup")
+  -- }
 
-
-
-  
-  -- @ Only nvim user can use this plugin
-  -- use {
+  -- use { -- Only nvim user can use this plugin 
   --   'azratul/live-share.nvim',
   --   requires = {'jbyuki/instant.nvim'},
   --   config = get_setup("live-share")

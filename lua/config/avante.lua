@@ -8,11 +8,11 @@ require('copilot').setup ({
 require('render-markdown').setup ({
   -- use recommended settings from above
 })
+
 require('avante_lib').load()
 require('avante').setup ({
   ---@alias Provider "claude" | "openai" | "azure" | "gemini" | "cohere" | "copilot" | string
-  -- provider = "claude", -- Recommend using Claude
-  provider = "openai", 
+  provider = "claude", -- Recommend using Claude
   auto_suggestions_provider = "copilot", -- Since auto-suggestions are a high-frequency operation and therefore expensive, it is recommended to specify an inexpensive provider or even a free provider: copilot
    -- Claude 설정
   claude = {

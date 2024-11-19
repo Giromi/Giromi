@@ -8,7 +8,6 @@ vim.cmd [[
   autocmd FileType lua setlocal ts=2 sts=2 sw=2
 ]]
 
-vim.g.python3_host_prog       = '/opt/homebrew/bin/python3'
 vim.wo.number 				        = true
 vim.opt.tabstop 			        = 4
 vim.opt.shiftwidth 		        = 4
@@ -30,3 +29,5 @@ vim.api.nvim_create_autocmd("BufWinLeave", {
     pattern = "*.*",
     command = "mkview"
 })
+
+vim.g.python3_host_prog       = "/opt/homebrew/bin/python3"

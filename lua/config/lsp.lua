@@ -11,7 +11,7 @@ end
 -- end)
 
 local lspconfig = require('lspconfig')
-local servers = { 'pyright', 'ts_ls', 'clangd', 'eslint', }
+local servers = { 'pyright', 'ts_ls', 'clangd', 'eslint', 'matlab_ls'}
 
 for _, lsp in pairs(servers) do
   require('lspconfig')[lsp].setup {
@@ -24,9 +24,18 @@ end
 
 
 require'lspconfig'.matlab_ls.setup {
+  -- cmd = { "/path/to/matlab-language-server", "--stdio" }, -- MATLAB Language Server 실행 경로
+  filetypes = { "matlab" }, -- MATLAB 파일 유형
+  root_dir = require('lspconfig.util').root_pattern(".git", "."),
   settings = {
     matlab = {
-      installPath = "/Applications/MATLAB_R2023b.app/"
+      installPath = "/Applications/MATLAB_R2024b.app", -- MATLAB 설치 경로
+      mlint = {
+        enable = true, -- MATLAB 코드 분석 활성화
+      },
+      workspace = {
+        library = {}, -- 라이브러리 경로 설정
+      }
     }
   }
 }

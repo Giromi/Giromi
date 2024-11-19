@@ -1,0 +1,16 @@
+-- local popup = require('popup')
+--
+-- local opts = {
+--   line = 10,
+--   col = 20,
+--   width = 20,
+--   height = 1,
+--   padding = {0, 0, 0, 0},
+--   border = {
+--     style = "rounded",
+--     highlight = "Normal",
+--   },
+-- }
+--
+-- local popup_win = popup.create("Hello, world!", opts)
+
