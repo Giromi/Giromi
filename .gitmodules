@@ -1,0 +1,3 @@
+[submodule "lua/vim-matlab"]
+	path = lua/vim-matlab
+	url = https://github.com/daeyun/vim-matlab.git
