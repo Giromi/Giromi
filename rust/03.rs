@@ -1,5 +1,4 @@
-
-
+#![allow(unused_variables)]
 
 fn main() {
     /*
@@ -25,7 +24,11 @@ fn main() {
     let my_other_number = 200;
     let thrid_number = my_number + my_other_number;
 
+    println!("The result is {}", thrid_number);
+
     let a: i8 = 10;
     let b: i16 = 10;
-    let c = a + b;
+    // let c = a + b.into(); // i16로 변환
+    let c = a as i16 + b; // i8 -> i16로 변환
+    println!("The result is {}", c);
 }
