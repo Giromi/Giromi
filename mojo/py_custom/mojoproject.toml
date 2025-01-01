@@ -1,0 +1,12 @@
+[project]
+authors = ["Minsuki2(Giromi) <giromi@cau.ac.kr>"]
+channels = ["conda-forge", "https://conda.modular.com/max"]
+description = "Add a short description here"
+name = "py_custom"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = ">=24.6.0,<25"
