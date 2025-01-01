@@ -145,7 +145,7 @@ return require('packer').startup(function(use)
       "nvim-lua/plenary.nvim",
 	    "MunifTanjim/nui.nvim", --- The below dependencies are optional
 	    "nvim-tree/nvim-web-devicons", -- or echasnovski/mini.icons
-	    "zbirenbaum/copilot.lua", -- for providers='copilot'
+	    -- "zbirenbaum/copilot.lua", -- for providers='copilot'
       -- "author/avante_lib", -- 실제 라이브러리의 GitHub 경로가 필요합니다
     },
     -- config = get_setup("avante")

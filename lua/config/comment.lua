@@ -1,5 +1,4 @@
-require('Comment').setup{
-{
+require('Comment').setup({
     ---Add a space b/w comment and the line
     padding = true,
     ---Whether the cursor should stay at its position
@@ -41,4 +40,9 @@ require('Comment').setup{
     pre_hook = nil,
     ---Function to call after (un)comment
     post_hook = nil,
-}}
+  -- ...기타 설정들...
+  -- Hook(autocmd) 등을 이용해 특정 filetype은 disable
+
+})
+local ft = require('Comment.ft')
+ft.set('asm', '//%s')
