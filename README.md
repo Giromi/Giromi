@@ -5,8 +5,19 @@
 자기소개  Resume Summary 기반
 
 
-# Research Interest 한단락
-# Technical Excellent 한단락
+# Research Interest
+1.
+
+2.
+
+3. 
+
+# Technical Excellent
+- Linux + ROS
+
+- Python / C,C++
+
+  
 # Pinned Projects (4개)
 
 (Repo1) (Project 의미살리기)
