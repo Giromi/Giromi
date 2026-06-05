@@ -183,6 +183,14 @@ Integration of Dubins-constrained RRT* for improved trajectory tracking.
 
 Motion Planning • MPC • Autonomous Driving • Embodied AI
 
+
+
+### Other Projects
+
+📁 [Repository](https://github.com/yourname/repo)
+##### 42 Seoul 
+[`MPC`](링크) · [`RRT*`](링크) · [`LLM Planning`](링크) · [`ROS2`](링크)
+
 ⸻
 
 ### Current Research Direction
@@ -194,4 +202,7 @@ I am particularly interested in developing autonomous robots that remain reliabl
 ⸻
 
 Project Goal/ Challenge/Method/Results/Discussion/ Video (Concept)/Demo) → Visual Aid
+
+### Motion Planning — Risk-Aware Emergency Vehicle Control
+
 
