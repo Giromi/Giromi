@@ -35,8 +35,15 @@ Trajectory generation, optimization, model predictive control, vector-field guid
 Combining machine learning, robot control, and physical interaction to create intelligent systems capable of acting in the real world.
 
 # Technical Strengths(Excellent)
-<img width="3125" height="1591" alt="image" src="https://github.com/user-attachments/assets/d055245a-c8e7-4798-ac06-d1175415320c" />
 
+
+
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d055245a-c8e7-4798-ac06-d1175415320c"
+       width="800" />
+</div> <h2 align="center">Technical Skills</h2>
 ### Robotics Software
 
 * ROS / ROS2
@@ -79,9 +86,10 @@ Combining machine learning, robot control, and physical interaction to create in
 
 
 <br/> 
+<div align="center">
+<img width="300" alt="Screenshot 2024-09-27 at 12 30 01" src="https://github.com/user-attachments/assets/d9ad9eef-844d-4b85-b9f8-2aa6a4abe542" />
+</div> <h2 align="center">Technical Skills</h2>
 
-<img width="594" height="525" alt="Screenshot 2024-09-27 at 12 30 01" src="https://github.com/user-attachments/assets/d9ad9eef-844d-4b85-b9f8-2aa6a4abe542" />
-  
 # Pinned Projects (4개)
 
 
