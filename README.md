@@ -41,8 +41,7 @@ Combining machine learning, robot control, and physical interaction to create in
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d055245a-c8e7-4798-ac06-d1175415320c"
-       width="800" />
+  <img width="3125" height="1591" alt="603748687-d055245a-c8e7-4798-ac06-d1175415320c" src="https://github.com/user-attachments/assets/b788c94c-943d-4230-a6e8-2bdab2b64818" />
    <br/>
   <p>
     <strong>Technical Skills</strong><br>
