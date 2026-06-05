@@ -43,7 +43,12 @@ Combining machine learning, robot control, and physical interaction to create in
 <div align="center">
   <img src="https://github.com/user-attachments/assets/d055245a-c8e7-4798-ac06-d1175415320c"
        width="800" />
-</div> <h2 align="center">Technical Skills</h2>
+   <br/>
+  <p>
+    <strong>Technical Skills</strong><br>
+  </p>
+</div>
+
 ### Robotics Software
 
 * ROS / ROS2
