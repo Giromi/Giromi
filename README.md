@@ -35,7 +35,7 @@ Trajectory generation, optimization, model predictive control, vector-field guid
 Combining machine learning, robot control, and physical interaction to create intelligent systems capable of acting in the real world.
 
 # Technical Strengths(Excellent)
-<img width="3076" height="1591" alt="image" src="https://github.com/user-attachments/assets/ccb84ce0-86de-4f9e-8416-6709ac0468a9" />
+<img width="3125" height="1591" alt="image" src="https://github.com/user-attachments/assets/d055245a-c8e7-4798-ac06-d1175415320c" />
 
 ### Robotics Software
 
