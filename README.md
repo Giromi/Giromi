@@ -48,45 +48,13 @@ Combining machine learning, robot control, and physical interaction to create in
   </p>
 </div>
 
-### Robotics Software
-
-* ROS / ROS2
-* Gazebo
-* CoppeliaSim
-* PX4 Autopilot
-* MAVROS
-* MoveIt
-* Linux
-
-### Programming
-
-* C++
-* Python
-* C
-* MATLAB
-
-### Control & Planning
-
-* PID Control
-* MPC
-* Vector Field Guidance
-* Path Planning
-* RRT*
-* State Estimation
-
-### AI & Perception
-
-* YOLOv5
-* PyTorch
-* OpenCV
-* LLM-based Planning
-
-### Mechanical Design
-
-* SolidWorks
-* 3D Printing
-* CNC Fabrication
-* Rapid Prototyping
+| Category | Skills |
+|----------|---------|
+| 🤖 Robotics Software | ![ROS](https://img.shields.io/badge/ROS-22314E?logo=ros&logoColor=white) ![ROS2](https://img.shields.io/badge/ROS2-22314E?logo=ros&logoColor=white) ![Gazebo](https://img.shields.io/badge/Gazebo-000000?logoColor=white) ![CoppeliaSim](https://img.shields.io/badge/CoppeliaSim-FF6C37?logoColor=white) ![PX4](https://img.shields.io/badge/PX4-0050FF?logoColor=white) ![MAVROS](https://img.shields.io/badge/MAVROS-1F4E79?logoColor=white) ![MoveIt](https://img.shields.io/badge/MoveIt-4B8BBE?logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) |
+| 💻 Programming | ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black) ![MATLAB](https://img.shields.io/badge/MATLAB-FF6F00?logoColor=white) |
+| 🎯 Control & Planning | ![PID](https://img.shields.io/badge/PID_Control-2E8B57?logoColor=white) ![MPC](https://img.shields.io/badge/MPC-8A2BE2?logoColor=white) ![Vector Field Guidance](https://img.shields.io/badge/Vector_Field_Guidance-4682B4?logoColor=white) ![Path Planning](https://img.shields.io/badge/Path_Planning-DC143C?logoColor=white) ![RRT*](https://img.shields.io/badge/RRT*-8B0000?logoColor=white) ![State Estimation](https://img.shields.io/badge/State_Estimation-696969?logoColor=white) |
+| 🧠 AI & Perception | ![YOLOv5](https://img.shields.io/badge/YOLOv5-00FFFF?logoColor=black) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white) ![LLM Planning](https://img.shields.io/badge/LLM--Based_Planning-412991?logoColor=white) |
+| ⚙️ Mechanical Design | ![SolidWorks](https://img.shields.io/badge/SolidWorks-FF0000?logoColor=white) ![3D Printing](https://img.shields.io/badge/3D_Printing-FF8C00?logoColor=white) ![CNC](https://img.shields.io/badge/CNC_Fabrication-708090?logoColor=white) ![Rapid Prototyping](https://img.shields.io/badge/Rapid_Prototyping-20B2AA?logoColor=white) |
 
 
 <br/> 
