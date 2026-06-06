@@ -54,13 +54,7 @@ My long-term goal is to develop robotic systems that continue to function when i
 
 
 <br/> 
-<div align="center">
-<img width="300" alt="Screenshot 2024-09-27 at 12 30 01" src="https://github.com/user-attachments/assets/d9ad9eef-844d-4b85-b9f8-2aa6a4abe542" />
-  <br/>
-  <p>
-    <strong>Technical Skills</strong><br>
-  </p>
-</div> 
+
 
 # Pinned Projects (4개)
 
