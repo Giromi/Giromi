@@ -12,27 +12,23 @@ Through projects spanning wearable robotics, UAV autonomy, assistive navigation 
 
 My long-term goal is to develop robotic systems that continue to function when infrastructure fails and environmental assumptions break down.
 
-# Research Interest
+# Research Interest Keyword
 
-### 1. Human-Robot Interaction (HRI)
+### 1. Human-Robot Interaction (HRI) / 
 
-Developing robotic systems that understand, assist, and collaborate with humans through sensing, control, and adaptive interaction.
 
-### 2. Assistive & Rehabilitation Robotics
 
-Designing wearable and assistive robotic technologies that improve mobility, accessibility, and quality of life for people with physical limitations.
+### * Assistive & Rehabilitation Robotics
 
-### 3. Autonomous Robotic Systems
 
-Integrating perception, planning, and control into robust autonomous systems capable of operating in dynamic and uncertain environments.
+### * Autonomous Robotic Systems
 
-### 4. Motion Planning & Control
 
-Trajectory generation, optimization, model predictive control, vector-field guidance, and decision-making for autonomous agents.
+### Motion Planning & Control
 
-### 5. Embodied AI
 
-Combining machine learning, robot control, and physical interaction to create intelligent systems capable of acting in the real world.
+### * Embodied AI
+
 
 # Technical Strengths(Excellent)
 
