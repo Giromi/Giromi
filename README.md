@@ -1,4 +1,3 @@
-
 # Minsu Kim
 ### Motto : "Building robotic systems that help people where infrastructure ends and uncertainty begins."
 
@@ -9,6 +8,8 @@ My interest in robotics began when I attempted to build a prosthetic leg from Le
 Through projects spanning wearable robotics, UAV autonomy, assistive navigation systems, and autonomous emergency vehicle planning, I have become particularly interested in how perception, planning, and control can be integrated into reliable robotic behavior under uncertainty.
 
 My long-term goal is to develop robotic systems that continue to function when infrastructure fails and environmental assumptions break down.
+
+---
 
 ## 🔬 Research Interests
 
@@ -29,18 +30,15 @@ Building reliable autonomous robotic systems by integrating **motion planning, c
 - 🦯 Assistive Navigation
 - 🦾 Rehabilitation Robotics
 
-
-
 <br>
 
-
-# 🚀 Featured Research Pinned Projects
+# 🚀 Featured Research Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ✈️ [Autonomous VTOL Guidance and Control System](https://github.com/Giromi/KRAC---Autonomous_VTOL_Guidance_and_Control_System)
+### ✈️ [Autonomous VTOL Guidance and Control System](https://github.com/Giromi/AutonomousVTOLGuidanceControl)
 
 **Research Area**
 
@@ -48,9 +46,9 @@ Autonomous Robotics • Flight Guidance & Control
 
 **Tech Stack**
 
-`ROS2` `PX4` `MAVROS` `C++` `Linux`
+`ROS2` `PX4` `MAVROS`
 
-`Vector Field Guidance` `Failsafe Control`
+`C++` `Linux` `Vector Field Guidance`
 
 **Summary**
 
@@ -58,9 +56,9 @@ Developed an autonomous guidance and control framework for VTOL aircraft using R
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🚑 [Risk-Aware Emergency Planning](https://github.com/Giromi/Capstone2---Risk_Aware_Emergency_Planning)
+### 🚑 [Risk-Aware Emergency Planning](https://github.com/Giromi/RiskAwareEmergencyPlanning)
 
 **Research Area**
 
@@ -70,7 +68,7 @@ Motion Planning • Autonomous Driving
 
 `Python` `RRT*` `MPC`
 
-`LLM-based Planning`
+`LLM` `CARLA`
 
 **Summary**
 
@@ -80,13 +78,13 @@ Designed a risk-aware motion planning framework that minimizes pedestrian casual
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🦯 [Assistive Navigation for Visually Impaired Users](https://github.com/Giromi/Capstone1---Assistive_Navigation_for_Visually_Impaired_Users)
+### 🦯 [Assistive Navigation for Visually Impaired Users](https://github.com/Giromi/AssistiveNavigation)
 
 **Research Area**
 
-Assistive Robotics • Path Planning
+Assistive Robotics • Navigation
 
 **Tech Stack**
 
@@ -100,31 +98,31 @@ Built an autonomous navigation system integrating perception, planning, and cont
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🤖 [Robotics Simulation and Control Systems](https://github.com/Giromi/AIS_Lab---Robotics_Simulation_and_Control_Systems)
+### 🤖 [Robot Manipulator Simulation and Control Systems](https://github.com/Giromi/RobotManipulatorSimulation)
 
 **Research Area**
 
-Robot Simulation • Motion Planning
+Robot Manipulation • Simulation
 
 **Tech Stack**
 
-`ROS2` `Gazebo`
+`ROS2` `Gazebo` `CARLA`
 
-`Python` `C++`
+`CoppeliaSim` `X-Plane` `Franka Panda`
 
 **Summary**
 
-Developed simulation environments for robotics research and autonomous control algorithm validation.
+Developed simulation environments and control validation pipelines for robot manipulators using ROS2 and multiple robotics simulation platforms.
 
 </td>
 </tr>
 
 <tr>
-<td colspan="2">
+<td colspan="2" valign="top">
 
-### 🦾 [Design and Development of a Wearable Elbow Assist Sleeve](https://github.com/Giromi/HRI_Lab---Design_and_Development_of_a_Wearable_Elbow_Assist_Sleeve)
+### 🦾 [Design and Development of a Wearable Elbow Assist Sleeve](https://github.com/Giromi/WearableElbowAssistSleeve)
 
 **Research Area**
 
@@ -144,11 +142,7 @@ Designed and fabricated a lightweight wearable elbow assist sleeve for rehabilit
 </tr>
 </table>
 
-
-
-
 <br>
-
 
 ## 💻 Programming Languages
 
