@@ -1,5 +1,5 @@
 
-# Minsu Kim (Giromi)
+# Minsu Kim
 ### Motto : "Building robotic systems that help people where infrastructure ends and uncertainty begins."
 
 I am a robotics researcher and engineer interested in building robotic systems that assist people in real-world environments.
