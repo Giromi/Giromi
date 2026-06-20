@@ -12,48 +12,19 @@ Through projects spanning wearable robotics, UAV autonomy, assistive navigation 
 
 My long-term goal is to develop robotic systems that continue to function when infrastructure fails and environmental assumptions break down.
 
-# Research Interest Keyword
+## Research Interests
 
-### 1. Human-Robot Interaction (HRI) / 
+<p align="center">
+  <img src="https://img.shields.io/badge/Assistive%20%26%20Rehabilitation%20Robotics-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Autonomous%20Robotic%20Systems-2E8B57?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Embodied%20AI-6A5ACD?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Motion%20Planning%20%26%20Control-FF8C00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Human--Robot%20Interaction-DC143C?style=for-the-badge" />
+</p>
 
-
-
-### * Assistive & Rehabilitation Robotics
-
-
-### * Autonomous Robotic Systems
-
-
-### Motion Planning & Control
+# Technical Skills
 
 
-### * Embodied AI
-
-
-# Technical Strengths(Excellent)
-
-
-
-
-
-<div align="center">
-  <img width="3125" height="1591" alt="603748687-d055245a-c8e7-4798-ac06-d1175415320c" src="https://github.com/user-attachments/assets/b788c94c-943d-4230-a6e8-2bdab2b64818" />
-   <br/>
-  <p>
-    <strong>Technical Skills</strong><br>
-  </p>
-</div>
-
-| Category | Skills |
-|----------|---------|
-| 🤖 Robotics Software | ![ROS](https://img.shields.io/badge/ROS-22314E?logo=ros&logoColor=white) ![ROS2](https://img.shields.io/badge/ROS2-22314E?logo=ros&logoColor=white) ![Gazebo](https://img.shields.io/badge/Gazebo-000000?logoColor=white) ![CoppeliaSim](https://img.shields.io/badge/CoppeliaSim-FF6C37?logoColor=white) ![PX4](https://img.shields.io/badge/PX4-0050FF?logoColor=white) ![MAVROS](https://img.shields.io/badge/MAVROS-1F4E79?logoColor=white) ![MoveIt](https://img.shields.io/badge/MoveIt-4B8BBE?logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) |
-| 💻 Programming | ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black) ![MATLAB](https://img.shields.io/badge/MATLAB-FF6F00?logoColor=white) |
-| 🎯 Control & Planning | ![PID](https://img.shields.io/badge/PID_Control-2E8B57?logoColor=white) ![MPC](https://img.shields.io/badge/MPC-8A2BE2?logoColor=white) ![Vector Field Guidance](https://img.shields.io/badge/Vector_Field_Guidance-4682B4?logoColor=white) ![Path Planning](https://img.shields.io/badge/Path_Planning-DC143C?logoColor=white) ![RRT*](https://img.shields.io/badge/RRT*-8B0000?logoColor=white) ![State Estimation](https://img.shields.io/badge/State_Estimation-696969?logoColor=white) |
-| 🧠 AI & Perception | ![YOLOv5](https://img.shields.io/badge/YOLOv5-00FFFF?logoColor=black) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white) ![LLM Planning](https://img.shields.io/badge/LLM--Based_Planning-412991?logoColor=white) |
-| ⚙️ Mechanical Design | ![SolidWorks](https://img.shields.io/badge/SolidWorks-FF0000?logoColor=white) ![3D Printing](https://img.shields.io/badge/3D_Printing-FF8C00?logoColor=white) ![CNC](https://img.shields.io/badge/CNC_Fabrication-708090?logoColor=white) ![Rapid Prototyping](https://img.shields.io/badge/Rapid_Prototyping-20B2AA?logoColor=white) |
-
-
-<br/> 
 
 
 # Pinned Projects (4개)
@@ -87,7 +58,7 @@ HRI • Wearable Robotics • Rehabilitation Robotics
 
 ⸻
 
-2. VTOL UAV Autonomous Guidance System
+### 2. VTOL UAV Autonomous Guidance System
 
 ##### Goal
 
@@ -116,7 +87,7 @@ UAV • Guidance • Autonomy • Control Systems
 
 ⸻
 
-3. Navigation Assistant for Visually Impaired Users
+### 3. Navigation Assistant for Visually Impaired Users
 
 ##### Goal
 
@@ -144,7 +115,7 @@ Assistive Robotics • HRI • Computer Vision
 
 ⸻
 
-4. Autonomous Emergency Vehicle Planning System
+### 4. Autonomous Emergency Vehicle Planning System
 
 ##### Goal
 
@@ -195,4 +166,17 @@ Project Goal/ Challenge/Method/Results/Discussion/ Video (Concept)/Demo) → Vis
 
 ### Motion Planning — Risk-Aware Emergency Vehicle Control
 
+# Technical language
+
+
+| Category | Skills |
+|----------|---------|
+| 🤖 Robotics Software | ![ROS](https://img.shields.io/badge/ROS-22314E?logo=ros&logoColor=white) ![ROS2](https://img.shields.io/badge/ROS2-22314E?logo=ros&logoColor=white) ![Gazebo](https://img.shields.io/badge/Gazebo-000000?logoColor=white) ![CoppeliaSim](https://img.shields.io/badge/CoppeliaSim-FF6C37?logoColor=white) ![PX4](https://img.shields.io/badge/PX4-0050FF?logoColor=white) ![MAVROS](https://img.shields.io/badge/MAVROS-1F4E79?logoColor=white) ![MoveIt](https://img.shields.io/badge/MoveIt-4B8BBE?logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) |
+| 💻 Programming | ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black) ![MATLAB](https://img.shields.io/badge/MATLAB-FF6F00?logoColor=white) |
+| 🎯 Control & Planning | ![PID](https://img.shields.io/badge/PID_Control-2E8B57?logoColor=white) ![MPC](https://img.shields.io/badge/MPC-8A2BE2?logoColor=white) ![Vector Field Guidance](https://img.shields.io/badge/Vector_Field_Guidance-4682B4?logoColor=white) ![Path Planning](https://img.shields.io/badge/Path_Planning-DC143C?logoColor=white) ![RRT*](https://img.shields.io/badge/RRT*-8B0000?logoColor=white) ![State Estimation](https://img.shields.io/badge/State_Estimation-696969?logoColor=white) |
+| 🧠 AI & Perception | ![YOLOv5](https://img.shields.io/badge/YOLOv5-00FFFF?logoColor=black) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white) ![LLM Planning](https://img.shields.io/badge/LLM--Based_Planning-412991?logoColor=white) |
+| ⚙️ Mechanical Design | ![SolidWorks](https://img.shields.io/badge/SolidWorks-FF0000?logoColor=white) ![3D Printing](https://img.shields.io/badge/3D_Printing-FF8C00?logoColor=white) ![CNC](https://img.shields.io/badge/CNC_Fabrication-708090?logoColor=white) ![Rapid Prototyping](https://img.shields.io/badge/Rapid_Prototyping-20B2AA?logoColor=white) |
+
+
+<br/> 
 
