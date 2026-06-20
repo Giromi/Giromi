@@ -1,6 +1,4 @@
 
-### 
-
 # Minsu Kim (Giromi)
 ### Motto : "Building robotic systems that help people where infrastructure ends and uncertainty begins."
 
@@ -12,7 +10,9 @@ Through projects spanning wearable robotics, UAV autonomy, assistive navigation 
 
 My long-term goal is to develop robotic systems that continue to function when infrastructure fails and environmental assumptions break down.
 
-## Research Interests
+## 🔬 Research Interests
+
+Building reliable autonomous robotic systems by integrating **motion planning, control, and perception** for real-world environments with uncertainty.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Assistive%20%26%20Rehabilitation%20Robotics-0A66C2?style=for-the-badge" />
@@ -22,161 +22,136 @@ My long-term goal is to develop robotic systems that continue to function when i
   <img src="https://img.shields.io/badge/Human--Robot%20Interaction-DC143C?style=for-the-badge" />
 </p>
 
-# Technical Skills
+### Current Research Applications
 
+- ✈️ Autonomous UAVs
+- 🚑 Autonomous Driving
+- 🦯 Assistive Navigation
+- 🦾 Rehabilitation Robotics
 
 
 
-# Pinned Projects (4개)
+<br>
 
 
-### 1. Human-Centered Wearable Elbow Assist Sleeve
+# 🚀 Featured Research Pinned Projects
 
-##### Goal
+<table>
+<tr>
+<td width="50%">
 
-Develop a wearable robotic device that assists elbow motion through a lightweight and compliant mechanism.
+### ✈️ [Autonomous VTOL Guidance and Control System](https://github.com/Giromi/KRAC---Autonomous_VTOL_Guidance_and_Control_System)
 
-##### Challenge
+**Research Area**
 
-Creating a structure that can generate assistive force while remaining comfortable and wearable.
+Autonomous Robotics • Flight Guidance & Control
 
-##### Method
+**Tech Stack**
 
-* Slide-linkage layer jamming mechanism
-* SolidWorks CAD design
-* CNC fabrication
-* 3D printing
-* EMG signal acquisition and processing
+`ROS2` `PX4` `MAVROS` `C++` `Linux`
 
-##### Results
+`Vector Field Guidance` `Failsafe Control`
 
-Successfully developed and evaluated a functional assistive prototype.
+**Summary**
 
-##### Keywords
+Developed an autonomous guidance and control framework for VTOL aircraft using ROS2 and PX4 with a robust failsafe architecture.
 
-HRI • Wearable Robotics • Rehabilitation Robotics
+</td>
 
-⸻
+<td width="50%">
 
-### 2. VTOL UAV Autonomous Guidance System
+### 🚑 [Risk-Aware Emergency Planning](https://github.com/Giromi/Capstone2---Risk_Aware_Emergency_Planning)
 
-##### Goal
+**Research Area**
 
-Develop a reliable autonomous navigation framework for VTOL aircraft.
+Motion Planning • Autonomous Driving
 
-##### Challenge
+**Tech Stack**
 
-Bridging simulation and real-world deployment.
+`Python` `RRT*` `MPC`
 
-##### Method
+`LLM-based Planning`
 
-* ROS2 Humble
-* PX4 Autopilot
-* MAVROS
-* Vector Field Guidance
-* Custom Flight Protocol
-* Failsafe Logic
+**Summary**
 
-##### Results
+Designed a risk-aware motion planning framework that minimizes pedestrian casualties during unavoidable collision scenarios.
 
-Implemented autonomous guidance and safety monitoring architecture.
+</td>
+</tr>
 
-##### Keywords
+<tr>
+<td width="50%">
 
-UAV • Guidance • Autonomy • Control Systems
+### 🦯 [Assistive Navigation for Visually Impaired Users](https://github.com/Giromi/Capstone1---Assistive_Navigation_for_Visually_Impaired_Users)
 
-⸻
+**Research Area**
 
-### 3. Navigation Assistant for Visually Impaired Users
+Assistive Robotics • Path Planning
 
-##### Goal
+**Tech Stack**
 
-Provide safe navigation support for visually impaired individuals.
+`ROS` `YOLOv5` `OpenCV`
 
-##### Challenge
+`A*` `PID`
 
-Integrating perception, planning, and control into a single autonomous loop.
+**Summary**
 
-##### Method
+Built an autonomous navigation system integrating perception, planning, and control for visually impaired users.
 
-* YOLOv5 tactile block detection
-* A* path planning
-* Discrete PID control
-* Gazebo simulation
-* RGB-D sensor validation
+</td>
 
-##### Results
+<td width="50%">
 
-Validated full navigation pipeline in simulation and hardware environments.
+### 🤖 [Robotics Simulation and Control Systems](https://github.com/Giromi/AIS_Lab---Robotics_Simulation_and_Control_Systems)
 
-##### Keywords
+**Research Area**
 
-Assistive Robotics • HRI • Computer Vision
+Robot Simulation • Motion Planning
 
-⸻
+**Tech Stack**
 
-### 4. Autonomous Emergency Vehicle Planning System
+`ROS2` `Gazebo`
 
-##### Goal
+`Python` `C++`
 
-Reduce pedestrian casualties during unavoidable collision scenarios.
+**Summary**
 
-##### Challenge
+Developed simulation environments for robotics research and autonomous control algorithm validation.
 
-Decision-making under uncertainty.
+</td>
+</tr>
 
-##### Method
+<tr>
+<td colspan="2">
 
-* LLM-based collision estimation
-* RRT*
-* Pedestrian-aware Gaussian bias
-* Task-specific MPC
+### 🦾 [Design and Development of a Wearable Elbow Assist Sleeve](https://github.com/Giromi/HRI_Lab---Design_and_Development_of_a_Wearable_Elbow_Assist_Sleeve)
 
-##### Results
+**Research Area**
 
-Achieved reduced casualty rates across multiple traffic density scenarios.
+Assistive Robotics • Human-Robot Interaction • Rehabilitation Robotics
 
-##### Future Work
+**Tech Stack**
 
-Integration of Dubins-constrained RRT* for improved trajectory tracking.
+`SolidWorks` `EMG` `3D Printing`
 
-##### Keywords
+`Rapid Prototyping`
 
-Motion Planning • MPC • Autonomous Driving • Embodied AI
+**Summary**
 
+Designed and fabricated a lightweight wearable elbow assist sleeve for rehabilitation using compliant mechanical mechanisms.
 
+</td>
+</tr>
+</table>
 
-### Other Projects
 
-📁 [Repository](https://github.com/yourname/repo)
-##### 42 Seoul 
-[`MPC`](링크) · [`RRT*`](링크) · [`LLM Planning`](링크) · [`ROS2`](링크)
 
-⸻
 
-### Current Research Direction
+<br>
 
-My current research focuses on the integration of perception, planning, and control for human-centered robotic systems.
 
-I am particularly interested in developing autonomous robots that remain reliable when environmental assumptions fail, enabling robots to assist people in real-world settings where uncertainty is unavoidable.
+## 💻 Programming Languages
 
-⸻
-
-Project Goal/ Challenge/Method/Results/Discussion/ Video (Concept)/Demo) → Visual Aid
-
-### Motion Planning — Risk-Aware Emergency Vehicle Control
-
-# Technical language
-
-
-| Category | Skills |
-|----------|---------|
-| 🤖 Robotics Software | ![ROS](https://img.shields.io/badge/ROS-22314E?logo=ros&logoColor=white) ![ROS2](https://img.shields.io/badge/ROS2-22314E?logo=ros&logoColor=white) ![Gazebo](https://img.shields.io/badge/Gazebo-000000?logoColor=white) ![CoppeliaSim](https://img.shields.io/badge/CoppeliaSim-FF6C37?logoColor=white) ![PX4](https://img.shields.io/badge/PX4-0050FF?logoColor=white) ![MAVROS](https://img.shields.io/badge/MAVROS-1F4E79?logoColor=white) ![MoveIt](https://img.shields.io/badge/MoveIt-4B8BBE?logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) |
+| Category | Languages |
+|----------|-----------|
 | 💻 Programming | ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black) ![MATLAB](https://img.shields.io/badge/MATLAB-FF6F00?logoColor=white) |
-| 🎯 Control & Planning | ![PID](https://img.shields.io/badge/PID_Control-2E8B57?logoColor=white) ![MPC](https://img.shields.io/badge/MPC-8A2BE2?logoColor=white) ![Vector Field Guidance](https://img.shields.io/badge/Vector_Field_Guidance-4682B4?logoColor=white) ![Path Planning](https://img.shields.io/badge/Path_Planning-DC143C?logoColor=white) ![RRT*](https://img.shields.io/badge/RRT*-8B0000?logoColor=white) ![State Estimation](https://img.shields.io/badge/State_Estimation-696969?logoColor=white) |
-| 🧠 AI & Perception | ![YOLOv5](https://img.shields.io/badge/YOLOv5-00FFFF?logoColor=black) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white) ![LLM Planning](https://img.shields.io/badge/LLM--Based_Planning-412991?logoColor=white) |
-| ⚙️ Mechanical Design | ![SolidWorks](https://img.shields.io/badge/SolidWorks-FF0000?logoColor=white) ![3D Printing](https://img.shields.io/badge/3D_Printing-FF8C00?logoColor=white) ![CNC](https://img.shields.io/badge/CNC_Fabrication-708090?logoColor=white) ![Rapid Prototyping](https://img.shields.io/badge/Rapid_Prototyping-20B2AA?logoColor=white) |
-
-
-<br/> 
-
