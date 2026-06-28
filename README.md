@@ -11,7 +11,7 @@ My long-term goal is to develop robotic systems that continue to function when i
 
 ---
 
-# 🔬 Research Interests
+# Research Interests
 
 Building reliable autonomous robotic systems by integrating **motion planning, control, and perception** for real-world environments with uncertainty.
 
@@ -25,21 +25,21 @@ Building reliable autonomous robotic systems by integrating **motion planning, c
 
 ### Current Research Applications
 
-- ✈️ Autonomous UAVs
-- 🚑 Autonomous Driving
-- 🦯 Assistive Navigation
-- 🦾 Rehabilitation Robotics
+- Autonomous UAVs
+- Autonomous Driving
+- Assistive Navigation
+- Rehabilitation Robotics
 
 <br>
 
-# 🚀 Featured Research Projects
+# Featured Research Projects
 
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-### ✈️ <a href="https://github.com/Giromi/AutonomousVTOLGuidanceControl">Autonomous VTOL Guidance and Control System</a>
+### <a href="https://github.com/Giromi/AutonomousVTOLGuidanceControl">Autonomous VTOL Guidance and Control System</a>
 
 **Research Area**
 
@@ -59,7 +59,7 @@ Developed an autonomous guidance and control framework for VTOL aircraft using R
 
 <td width="50%" valign="top">
 
-### 🚑 <a href="https://github.com/Giromi/RiskAwareEmergencyPlanning">Risk-Aware Emergency Planning</a>
+### <a href="https://github.com/Giromi/RiskAwareEmergencyPlanning">Risk-Aware Emergency Planning</a>
 
 **Research Area**
 
@@ -83,7 +83,7 @@ Designed a risk-aware motion planning framework that minimizes pedestrian casual
 
 <td width="50%" valign="top">
 
-### 🦯 <a href="https://github.com/Giromi/AssistiveNavigationSystem">Assistive Navigation for Visually Impaired Users</a>
+### <a href="https://github.com/Giromi/AssistiveNavigationSystem">Assistive Navigation for Visually Impaired Users</a>
 
 **Research Area**
 
@@ -103,7 +103,7 @@ Built an autonomous navigation system integrating perception, planning, and cont
 
 <td width="50%" valign="top">
 
-### 🤖 <a href="https://github.com/Giromi/RobotManipulatorSimulation">Robot Manipulator Simulation and Control Systems</a>
+### <a href="https://github.com/Giromi/RobotManipulatorSimulation">Robot Manipulator Simulation and Control Systems</a>
 
 **Research Area**
 
@@ -127,7 +127,7 @@ Developed simulation environments and control validation pipelines for robot man
 
 <td colspan="2" valign="top">
 
-### 🦾 <a href="https://github.com/Giromi/WearableElbowAssistSleeve">Design and Development of a Wearable Elbow Assist Sleeve</a>
+### <a href="https://github.com/Giromi/WearableElbowAssistSleeve">Design and Development of a Wearable Elbow Assist Sleeve</a>
 
 **Research Area**
 
@@ -150,7 +150,7 @@ Designed and fabricated a lightweight wearable elbow assist sleeve for rehabilit
 
 <br>
 
-# 💻 Programming Languages
+# Programming Languages
 
 | Category | Languages |
 |----------|-----------|
